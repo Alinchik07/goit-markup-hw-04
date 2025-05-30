@@ -459,11 +459,17 @@ margin-top: 8px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.social-container {
-    margin-left: 120px;
+
+.footer-logo-text {
+margin-right: 120px;
 }
 
-.social-title {
+.footer-social-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.social-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
