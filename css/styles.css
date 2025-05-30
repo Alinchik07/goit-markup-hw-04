@@ -478,7 +478,13 @@ margin-right: 120px;
     margin-bottom: 16px;
 }
 
-.footer-link{
+.footer-link:hover,
+.footer-link:focus {
+background-color: #31d0aa;
+}
+
+.footer-list {
+    gap: 16px;
 }
 
 .footer-logo {
